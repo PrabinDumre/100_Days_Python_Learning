@@ -1,0 +1,30 @@
+# Create a program to guess number
+print("This is a guess game ")
+print("Please guess a number between 0 to 100")
+print("Try to win a  game")
+print("You have only 9 guesses")
+e=10
+u=9
+i=1
+p =16
+while(i<e):
+    print("Enter a number")
+    num = int(input())
+    if(num==p):
+        print("You have guessed correct number i.e. ",num)
+        print("You have guessed in ", i, "times")
+        break
+    elif(num<p):
+        print("It is less so Choose higher number")
+    else:
+        print("It is higher so choose lower number")
+    i=i+1
+    u=u-1
+    print("Only",u,"Guesses is left")
+
+if(i>=e):
+    print()
+    print("Game Over")
+
+
+
