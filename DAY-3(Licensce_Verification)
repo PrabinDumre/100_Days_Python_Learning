@@ -1,0 +1,12 @@
+print("Enter your age")
+p = int(input())
+
+if p<7 or p>100 :
+    print("Invalid user")
+elif(p<18):
+    print("You are not eligible to take licence")
+elif(p==18):
+    print("Here cannot be decided , come and meet physically")
+else:
+    print("You are eligible to take licence test")
+
