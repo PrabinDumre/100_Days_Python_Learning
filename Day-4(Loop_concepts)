@@ -1,0 +1,18 @@
+list1 =["Prabin","Saugat","Pragyan"]
+for item in list1:
+    print(item)
+
+list2 =[["Prabin",3],["Saugat",6],["Pragyan",9]]
+for item,sweet in list2:
+    print(item,sweet)
+
+# By Dictionary
+list3 =[["Prabin",3],["Saugat",6],["Pragyan",9]]
+dict1 = dict(list3)
+print(dict1)
+for item,sweet in dict1.items():
+    print(item,sweet)
+
+#For key only
+for item in dict1:
+    print (item)
