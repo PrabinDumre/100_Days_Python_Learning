@@ -1,0 +1,6 @@
+n_english = int(input())
+english_roll_numbers = set(map(int, input().split()))
+n_french = int(input())
+french_roll_numbers = set(map(int, input().split()))
+both_subscribed = english_roll_numbers.intersection(french_roll_numbers)
+print(len(both_subscribed))
